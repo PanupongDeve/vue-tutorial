@@ -1,0 +1,78 @@
+
+
+.back {
+    &__container {
+        padding: 25px 25px;
+    }
+}
+
+.intro-menu {
+    &__btn {
+        width: 100%;
+    }
+
+    &__card-header {
+        text-align: center;
+    }
+}
+
+.my-number {
+    &__col-center {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+        margin-top: 25px;
+        border: 0.5px solid palevioletred;
+        padding-bottom: 10px;
+    }
+
+    &__box-title {
+        background: palevioletred;
+        color: #fff;
+        width: 100%;
+        text-align: center;
+    }
+
+    &__box-container {
+        display: flex;
+    }
+
+    &__display {
+        font-size: 50px;
+    }
+    
+    &__btn {
+        width: 100px;
+        font-size: 28px;
+    }
+}
+
+
+.my-box {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+
+    &__red {
+        background-color: red;
+    }
+    
+    &__green {
+        background-color: green;
+    }
+    
+    &__blue {
+        background-color: blue;
+    }
+}
+

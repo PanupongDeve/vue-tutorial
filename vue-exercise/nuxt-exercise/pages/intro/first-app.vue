@@ -37,10 +37,17 @@
         </div>
     </div>
 
+    <div class="row">
+        <div class="col-sm-12">
+            <app-btn  name="Button One"></app-btn>
+        </div>
+    </div>
+
   </div>
 </template>
 
 <script>
+import button from '../../components/Button/button';
 
 export default {
     data: function() {
@@ -57,6 +64,9 @@ export default {
                 'my-box__blue': !this.attchedGreen
             }
         }
+    },
+    components: {
+        appBtn: button
     }
 }
 </script>
